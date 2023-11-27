@@ -17,9 +17,10 @@ Features from the above datasets that were used:
         - width (of artists' art)
         - height (of artists' art)
     2. Features from the synthetic Kaggle dataset on cyber-security attacks.
-        - 
-        -
-        -
+        - Source Port
+        - Destination Port
+        - Packet Length
+        - Anomaly Scores
 
 1) Dimensionality reduction on it's own on various sets of data. Techniques applied include:
 
