@@ -3,13 +3,29 @@ Dimensionality Reduction, visualization of reduced and embedded, clustered data,
 
 There will be three notebooks produced. 
 
+2 sets of data will be looked at, including:
+    
+    1. Features from the National Gallery of Art 'OpenData' repo. 
+        - birthyear (of artist)
+        - deathyear (of artist)
+        - width (of artists' art)
+        - height (of artists' art)
+    2. Features from ...
+
 1) Dimensionality reduction on it's own on various sets of data. Techniques applied include:
 
-    a) PCA, SVD, MDS, ISOMap, LLE
+    a) Lower Complexity Algorithms
+
+        1. PCA (Principal Component Analysis)
+        2. SVD (Singular Value Decomposition)
+        3. MDS (Multidimensional Scaling)
+        4. ISOMap (Isometric Mapping)
+        5. LLE (Locally Linear Embedding)
    
-    b) UMAP and t-sne 
+    b) Higher Complexity Algorithms
 
-2) Dimensionality reduction followed by clustering on the same sets of data as used in notebook 1.
-   - Specifically, UMAP will be used clustering.
+        1. UMAP (Uniform Manifold Approximation and Projection)
+        2. t-sne (t-Distributed Stochastic Neighbor Embedding)
 
-3) Dimensionality reduction using data bricks.
+2) Dimensionality reduction was followed by clustering on the UMAP and t-SNE dimensionality reduced data for art from notebook 1.
+3) Dimensionality reduction done using the Data Bricks platform.
