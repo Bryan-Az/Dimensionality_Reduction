@@ -4,13 +4,22 @@ Dimensionality Reduction, visualization of reduced and embedded, clustered data,
 There will be three notebooks produced. 
 
 2 sets of data will be looked at, including:
+
+>  [National Gallery of Art OpenData Github Repo](https://github.com/NationalGalleryOfArt/opendata)
+
+> [Kaggle Cyber-Security Synthetic Data from Inscribo](https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks)
+
+Features from the above datasets that were used:
     
     1. Features from the National Gallery of Art 'OpenData' repo. 
         - birthyear (of artist)
         - deathyear (of artist)
         - width (of artists' art)
         - height (of artists' art)
-    2. Features from ...
+    2. Features from the synthetic Kaggle dataset on cyber-security attacks.
+        - 
+        -
+        -
 
 1) Dimensionality reduction on it's own on various sets of data. Techniques applied include:
 
