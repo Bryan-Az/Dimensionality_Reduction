@@ -9,7 +9,28 @@ There will be three notebooks produced.
 
 > [Kaggle Cyber-Security Synthetic Data from Inscribo](https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks)
 
-Features from the above datasets that were used:
+### Elbow Plot for the k-Means best K on t-SNE for Artwork
+
+![Artwork_elbow](./images/elbow_for_tsne_art.png)
+
+### Cluster Plot for K=4 for the t-SNE matrix of Artwork
+
+![Artwork_cluster](./images/kmeans_cluster_tsne_art.png)
+
+### Elbow Plot for the k-Means best K on UMAP for Synthetic Cybersecurity Data
+
+![Cybersecurity_elbow](./images/elbow_umap_cyber.png)
+
+### Cluster Plot for K=6 for the UMAP matrix of Synthetic Cybersecurity Data
+
+![Cybersecurity_cluster](./images/kmeans_cluster_umap_cyber.png)
+
+
+
+
+
+
+## Features from the above datasets that were used:
     
     1. Features from the National Gallery of Art 'OpenData' repo. 
         - birthyear (of artist)
@@ -21,6 +42,8 @@ Features from the above datasets that were used:
         - Destination Port
         - Packet Length
         - Anomaly Scores
+
+## Notebooks above cover:
 
 1) Dimensionality reduction on it's own on various sets of data. Techniques applied include:
 
@@ -38,4 +61,4 @@ Features from the above datasets that were used:
         2. t-sne (t-Distributed Stochastic Neighbor Embedding)
 
 2) Dimensionality reduction was followed by clustering on the UMAP and t-SNE dimensionality reduced data for art from notebook 1.
-3) Dimensionality reduction done using the Data Bricks platform.
+3) Dimensionality reduction done using the Data Bricks platform (similar to 1, except using the databricks platform for data storage and multi-process / scaling).
